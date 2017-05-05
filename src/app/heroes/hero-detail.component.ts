@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 import {Router, ActivatedRoute, Params} from '@angular/router'
-import {Hero} from './hero';
+import {Hero} from './hero'
 import {HeroService} from './heroes.service'
 import 'rxjs/add/operator/switchMap'
+
 
 @Component({
     template: `
